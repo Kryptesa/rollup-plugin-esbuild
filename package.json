@@ -1,5 +1,5 @@
 {
-  "name": "rollup-plugin-esbuild",
+  "name": "@kryptesa/rollup-plugin-esbuild",
   "version": "0.0.0-semantic-release",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -10,7 +10,10 @@
   },
   "author": "EGOIST",
   "license": "MIT",
-  "repository": "https://github.com/egoist/rollup-plugin-esbuild",
+  "repository": "https://github.com/Kryptesa/rollup-plugin-esbuild",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "jest",
     "example:rollup-node-resolve": "rollup -c example/rollup.config.js",
